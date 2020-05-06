@@ -1,0 +1,54 @@
+﻿@model IEnumerable<CourseWork.Models.Crime>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Преступления</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Создать преступление</a>
+    
+</p>
+<form method="post">
+<table class="table">
+    <thead>
+    <tr>
+        <th> ID</th>
+        <th>
+            Дата-Время
+        </th>
+        <th>
+            Название
+        </th>
+        <th>
+            Наказание
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Punishment)
+            </td>
+            <td>
+                <a class="btn btn-primary text-white col-8" asp-action="Edit" asp-route-id="@item.Id">Редактировать</a> 
+                <a class="btn btn-info text-white col-8" asp-action="Details" asp-route-id="@item.Id">Детали</a> 
+                <a class="btn btn-danger text-white col-8" asp-action="Delete" asp-route-id="@item.Id">Удалить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</form>

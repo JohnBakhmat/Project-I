@@ -1,0 +1,30 @@
+﻿@model CourseWork.Models.Organisation
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Детали</h1>
+
+<div>
+    <h4>Организация</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Название : 
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Boss)
+        </dt>
+        <dd class="col-sm-10">
+            Босс : 
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.Id">Редактировать</a> |
+    <a class="btn btn-danger" asp-action="Index">Вернуться</a>
+</div>

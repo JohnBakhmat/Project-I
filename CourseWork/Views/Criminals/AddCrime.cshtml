@@ -1,0 +1,52 @@
+﻿@model CourseWork.Models.AddCrimeViewModel
+
+@{
+    ViewData["Title"] = "Add Crime";
+}
+
+<h1>Добавить преступление</h1>
+
+<p>
+    <a asp-controller="Criminals" asp-action="Index" class="btn btn-primary">Вернуться</a>
+</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Выбрать</th>
+                <th>Статья</th>
+                <th>
+                    Дата-Время
+                </th>
+                <th>
+                    Преступление
+                </th>
+                <th>
+                    Наказание
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model.Crimes)
+            {
+                <tr>
+                    <td>
+                        <a class="btn btn-success text-white " asp-action="ChangeStatus" asp-route-crime_id="@item.Crime.Id" asp-route-criminal_id="@Model.CriminalId"  asp-route-status="@(!item.IsSelected)">@(item.IsSelected ? "-" : "+")</a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem=>item.Crime.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Crime.Date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Crime.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Crime.Punishment)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>

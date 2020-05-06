@@ -1,0 +1,46 @@
+﻿@model CourseWork.Models.AddOrganisationViewModel
+
+@{
+    ViewData["Title"] = "Add Crime";
+}
+
+<h1>Добавить организацию</h1>
+
+<p>
+    <a asp-controller="Criminals" asp-action="Index" class="btn btn-primary">Вернуться</a>
+</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Выбрать</th>
+                <th>ID</th>
+                <th>
+                    Название
+                </th>
+                <th>
+                    Босс
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model.Organisations)
+            {
+                <tr>
+                    <td>
+                        <a class="btn btn-success text-white " asp-action="OrgChangeStatus" asp-route-org_id="@item.Organisation.Id" asp-route-criminal_id="@Model.CriminalId"  asp-route-status="@(!item.IsSelected)">@(item.IsSelected ? "-" : "+")</a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem=>item.Organisation.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Organisation.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Organisation.Boss)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>

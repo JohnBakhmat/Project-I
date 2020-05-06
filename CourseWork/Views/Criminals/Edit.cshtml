@@ -1,0 +1,96 @@
+﻿@model CourseWork.Models.Criminal
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Изменить данные</h1>
+
+<h4>Преступник</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label">Имя</label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label">Фамилия</label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NickName" class="control-label">Прозвище</label>
+                <input asp-for="NickName" class="form-control" />
+                <span asp-validation-for="NickName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Age" class="control-label">Возраст</label>
+                <input asp-for="Age" class="form-control" type="number" />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                            <label asp-for="Height" class="control-label">Рост</label>
+                            <input asp-for="Height" class="form-control" type="number" step="0.01"/>
+                            <span asp-validation-for="Height" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BirthDate" class="control-label" >Дата рождения</label>
+                            <input asp-for="BirthDate" class="form-control" type="datetime-local"/>
+                            <span asp-validation-for="BirthDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BirthPlace" class="control-label" >Место рождения</label>
+                            <input asp-for="BirthPlace" class="form-control" type="text" />
+                            <span asp-validation-for="BirthPlace" class="text-danger"></span>
+                        </div>
+            <div class="form-group">
+                <label asp-for="Sex" class="control-label">Пол</label>
+                <select class="form-control" asp-for="Sex"> 
+                                        <option></option>
+                                        <option>Мужской</option>
+                                        <option>Женский</option>
+                                    </select>
+                <span asp-validation-for="Sex" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HairColor" class="control-label">Цвет волос</label>
+                <input asp-for="HairColor" class="form-control" />
+                <span asp-validation-for="HairColor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EyeColor" class="control-label">Цвет глаз</label>
+                <select asp-for="EyeColor" class="form-control" type="text">
+                                    <option></option>
+                                    <option>Голубые</option>
+                                    <option>Зеленые</option>
+                                    <option>Карие</option>
+                                    <option>Серые</option>
+                                </select>
+                <span asp-validation-for="EyeColor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExtraSigns" class="control-label">Особые приметы</label>
+                <input asp-for="ExtraSigns" class="form-control" />
+                <span asp-validation-for="ExtraSigns" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastAccomodation" class="control-label">Последнее меcто жительста</label>
+                <input asp-for="LastAccomodation" class="form-control" />
+                <span asp-validation-for="LastAccomodation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Сохранить" class="btn btn-primary" /> |
+                <a class="btn btn-danger" asp-action="Index">Вернуться</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

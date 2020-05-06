@@ -1,0 +1,42 @@
+﻿@model CourseWork.Models.Crime
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Детали</h1>
+
+<div>
+    <h4>Преступление</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+                    ID
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Id)
+                </dd>
+            <dt class = "col-sm-2">
+                Дата-время
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Date)
+            </dd>
+            <dt class = "col-sm-2">
+                Название
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class = "col-sm-2">
+                Наказание
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Punishment)
+            </dd>
+        </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Редактировать</a> |
+    <a asp-action="Index" class="btn btn-primary">Вернуться</a>
+</div>

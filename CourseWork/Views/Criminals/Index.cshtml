@@ -1,0 +1,130 @@
+﻿@using Microsoft.EntityFrameworkCore.Internal
+@model IEnumerable<CourseWork.Models.Criminal>
+
+@{
+    ViewData["Title"] = "Список преступников";
+}
+
+<h1 class="text-center">Список преступников</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Добавить преступника</a>
+</p>
+
+@using (Html.BeginForm())
+{
+    <p>
+        @Html.TextBox("SearchString")  
+        <button type="submit" class="btn btn-primary">Искать</button>
+    </p>
+}
+<table class="table col-auto">
+    <thead class="thead-light">
+        <tr>
+            <th>ID</th>
+            <th>
+                Фамилия
+            </th>
+            <th>
+                Имя
+            </th>
+            <th>
+                Прозвище
+            </th>
+            <th>
+                Возраст
+            </th>
+            <th>
+                Рост
+            </th>
+            <th>
+                Дата рождения
+            </th>
+            <th>
+                Место рождения
+            </th>
+            <th>
+                Пол
+            </th>
+            <th>
+                Цвет волос
+            </th>
+            <th>
+                Цвет глаз
+            </th>
+            <th>
+                Особые приметы
+            </th>
+            <th>
+                Последнее место жительства
+            </th>
+            <th>Организации</th>
+            <th>Преступления</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.OrderBy(p=>p.LastName)) {
+    @if (!item.IsArchived)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NickName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Height)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BirthDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BirthPlace)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sex)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HairColor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EyeColor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExtraSigns)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastAccomodation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrganisationsAsString)
+                @if (User.Identity.IsAuthenticated)
+                {<a class="btn btn-success" asp-controller="Criminals" asp-action="AddOrganisation" asp-route-criminal_id="@item.Id">Добавить</a>}
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrimesAsString)
+                @if (User.Identity.IsAuthenticated)
+                {<a class="btn btn-success" asp-controller="Criminals" asp-action="AddCrime" asp-route-criminal_id="@item.Id">Добавить</a>}
+            </td>
+            <td>
+                @if (User.Identity.IsAuthenticated)
+                {
+                <a class="btn btn-primary text-white col-12" asp-action="Edit" asp-route-id="@item.Id">Изменить</a>
+                <a class="btn btn-primary text-white col-12" asp-action="Details" asp-route-id="@item.Id">Еще</a>
+                <a class="btn btn-danger text-white col-12" asp-action="Archive" asp-route-id="@item.Id">Архивировать</a>
+                <a class="btn btn-danger text-white col-12" asp-action="Delete" asp-route-id="@item.Id">Удалить</a>}
+            </td>
+        </tr>}
+}
+    </tbody>
+</table>

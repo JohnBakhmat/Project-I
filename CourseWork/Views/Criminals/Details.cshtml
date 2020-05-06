@@ -1,0 +1,90 @@
+﻿@model CourseWork.Models.Criminal
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Детали</h1>
+
+<div>
+    <h4>Преступник</h4>
+    <hr />
+    <dl class="row">
+            <dt class="col-sm-2">
+                Имя
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.FirstName)
+            </dd>
+            <dt class="col-sm-2">
+                Фамилия
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.LastName)
+            </dd>
+            <dt class="col-sm-2">
+                Прозвище
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.NickName)
+            </dd>
+            <dt class="col-sm-2">
+                Возраст
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Age)
+            </dd>
+            <dt class="col-sm-2">
+                Рост
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Height)
+            </dd>
+            <dt class="col-sm-2">
+                День рождения
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.BirthDate)
+            </dd>
+            <dt class="col-sm-2">
+                Место рождения
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.BirthPlace)
+            </dd>
+            <dt class="col-sm-2">
+                Пол
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Sex)
+            </dd>
+            <dt class="col-sm-2">
+                Цвет волос
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.HairColor)
+            </dd>
+            <dt class="col-sm-2">
+                Цвет глаз
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.EyeColor)
+            </dd>
+            <dt class="col-sm-2">
+                Особые приметы
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ExtraSigns)
+            </dd>
+            <dt class="col-sm-2">
+                Последнее место жительства
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.LastAccomodation)
+            </dd>
+        </dl>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.Id">Редактировать</a> |
+    <a class="btn btn-danger" asp-action="Index">Вернуться</a>
+</div>

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<CourseWork.Models.Organisation>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Список организаций</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Создать организацию</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>
+                Название
+            </th>
+            <th>
+                Босс
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Boss)
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Редактировать</a> |
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Детали</a> |
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Удалить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

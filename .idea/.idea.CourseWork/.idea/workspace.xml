@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e2fb29e-9643-459e-95cd-f6fc63a8aa96" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CourseWork/Controllers/CriminalsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Criminals/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Criminals/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Criminals/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Criminals/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Models/CrimeCriminal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Models/Criminal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Models/Crime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FEE5448D-C7B4-48FD-B49C-A6BEA263F986/2F/ParameterExpression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Models/CrimeViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FEE5448D-C7B4-48FD-B49C-A6BEA263F986/A5/TypeUtils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Organisations/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Criminals/AddCrime.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Criminals/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/30/RuntimeType.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/3D/Type.Helpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/3B/Type.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Crimes/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Crimes/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/31/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Crimes/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Crimes/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/33/RuntimeHandles.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Views/Crimes/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/3A/Type.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CourseWork/Controllers/CrimesController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CourseWork/Models/Criminal.cs" />
+        <option value="$PROJECT_DIR$/CourseWork/Views/Criminals/Index.cshtml" />
+        <option value="$PROJECT_DIR$/CourseWork/Views/Criminals/Delete.cshtml" />
+        <option value="$PROJECT_DIR$/CourseWork/Views/Criminals/Details.cshtml" />
+        <option value="$PROJECT_DIR$/CourseWork/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/CourseWork/Views/Criminals/AddCrime.cshtml" />
+        <option value="$PROJECT_DIR$/CourseWork/Controllers/CrimesController.cs" />
+        <option value="$PROJECT_DIR$/CourseWork/Views/Crimes/Create.cshtml" />
+        <option value="$PROJECT_DIR$/CourseWork/Views/Crimes/Index.cshtml" />
+        <option value="$PROJECT_DIR$/CourseWork/Views/Crimes/Details.cshtml" />
+        <option value="$PROJECT_DIR$/CourseWork/Views/Crimes/Delete.cshtml" />
+        <option value="$PROJECT_DIR$/CourseWork/Views/Crimes/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/CourseWork/Views/Criminals/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/CourseWork/Views/Criminals/Create.cshtml" />
+        <option value="$PROJECT_DIR$/CourseWork/Controllers/CriminalsController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1awLZSnZxbXmkr7GgWXDsQTciz2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.CourseWork: IIS Express">
+    <configuration name="CourseWork: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CourseWork/CourseWork.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="CourseWork: Курсовая" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CourseWork/CourseWork.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="Курсовая" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e2fb29e-9643-459e-95cd-f6fc63a8aa96" name="Default Changelist" comment="" />
+      <created>1587641767708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587641767708</updated>
+      <workItem from="1587641797157" duration="462000" />
+      <workItem from="1587657488629" duration="888000" />
+      <workItem from="1587661920922" duration="3460000" />
+      <workItem from="1587725212871" duration="667000" />
+      <workItem from="1588405966070" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1814" height="135" key="GridCell.Tab.0.bottom" timestamp="1587665398871">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="135" key="GridCell.Tab.0.bottom/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587665398871" />
+    <state width="1814" height="135" key="GridCell.Tab.0.center" timestamp="1587665398871">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="135" key="GridCell.Tab.0.center/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587665398871" />
+    <state width="1814" height="135" key="GridCell.Tab.0.left" timestamp="1587665398871">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="135" key="GridCell.Tab.0.left/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587665398871" />
+    <state width="1814" height="135" key="GridCell.Tab.0.right" timestamp="1587665398871">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="135" key="GridCell.Tab.0.right/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587665398871" />
+    <state width="1814" height="342" key="GridCell.Tab.1.bottom" timestamp="1587642367996">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.1.bottom/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367996" />
+    <state width="1814" height="342" key="GridCell.Tab.1.center" timestamp="1587642367996">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.1.center/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367996" />
+    <state width="1814" height="342" key="GridCell.Tab.1.left" timestamp="1587642367996">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.1.left/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367996" />
+    <state width="1814" height="342" key="GridCell.Tab.1.right" timestamp="1587642367996">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.1.right/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367996" />
+    <state width="1814" height="342" key="GridCell.Tab.2.bottom" timestamp="1587642367996">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.2.bottom/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367996" />
+    <state width="1814" height="342" key="GridCell.Tab.2.center" timestamp="1587642367996">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.2.center/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367996" />
+    <state width="1814" height="342" key="GridCell.Tab.2.left" timestamp="1587642367996">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.2.left/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367996" />
+    <state width="1814" height="342" key="GridCell.Tab.2.right" timestamp="1587642367996">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.2.right/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367996" />
+    <state width="1814" height="342" key="GridCell.Tab.3.bottom" timestamp="1587642367996">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.3.bottom/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367996" />
+    <state width="1814" height="342" key="GridCell.Tab.3.center" timestamp="1587642367996">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.3.center/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367996" />
+    <state width="1814" height="342" key="GridCell.Tab.3.left" timestamp="1587642367996">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.3.left/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367996" />
+    <state width="1814" height="342" key="GridCell.Tab.3.right" timestamp="1587642367996">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.3.right/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367996" />
+    <state width="1814" height="342" key="GridCell.Tab.4.bottom" timestamp="1587642367997">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.4.bottom/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367997" />
+    <state width="1814" height="342" key="GridCell.Tab.4.center" timestamp="1587642367997">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.4.center/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367997" />
+    <state width="1814" height="342" key="GridCell.Tab.4.left" timestamp="1587642367997">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.4.left/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367997" />
+    <state width="1814" height="342" key="GridCell.Tab.4.right" timestamp="1587642367997">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="342" key="GridCell.Tab.4.right/0.0.1857.1080/1920.40.1366.728@0.0.1857.1080" timestamp="1587642367997" />
+  </component>
+</project>
