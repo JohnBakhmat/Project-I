@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\bahma\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\bahma\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_CourseWork.501838590.00" t="ExcludeRecursive" />
-    <e p="C:\Users\bahma\Desktop\CourseWork" t="IncludeFlat">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="CourseWork" t="IncludeRecursive">
         <e p=".gitignore" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
@@ -66,12 +64,6 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
-          <e p="PublishProfiles" t="Include">
-            <e p="CourseWork20200424115218 - FTP.pubxml" t="Include" />
-            <e p="CourseWork20200424115218 - ReadOnly - FTP.pubxml" t="Include" />
-            <e p="CourseWork20200424115218 - Web Deploy.pubxml" t="Include" />
-            <e p="CourseWork20200424115218 - Web Deploy1.pubxml" t="Include" />
-          </e>
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
@@ -179,5 +171,10 @@
       <e p="CourseWork.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_CourseWork.-1490924396.00" t="ExcludeRecursive" />
   </component>
 </project>
